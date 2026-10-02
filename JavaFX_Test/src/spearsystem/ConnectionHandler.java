@@ -45,7 +45,7 @@ public class ConnectionHandler {
 			e.printStackTrace();
 		}
 
-		cpds.setJdbcUrl("jdbc:mysql://localhost:3306/spearDatabase");
+		cpds.setJdbcUrl("jdbc:mysql://localhost:3307/spearDatabase");
 		cpds.setUser("authenticator");
 		cpds.setPassword("userAuthProfile");
 		cpds.setMinPoolSize(3);
@@ -71,7 +71,7 @@ public class ConnectionHandler {
 			e.printStackTrace();
 		}
 
-		cpds.setJdbcUrl("jdbc:mysql://localhost:3306/spearDatabase");
+		cpds.setJdbcUrl("jdbc:mysql://localhost:3307/spearDatabase");
 		cpds.setUser("custodian");
 		cpds.setPassword("custodianAccess");
 		cpds.setMinPoolSize(3);

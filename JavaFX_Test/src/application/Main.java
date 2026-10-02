@@ -11,9 +11,10 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+			Parent login = FXMLLoader.load(getClass().getResource("login.fxml"));
+			//Parent signUp = FXMLLoader.load(getClass().getResource("signUp.fxml"));
 
-			Scene scene = new Scene(root);
+			Scene scene = new Scene(login);
 			
 			primaryStage.setTitle("SPEAR Inventory System");
 
