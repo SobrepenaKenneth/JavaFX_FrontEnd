@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
-public class Login extends Application {
+public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -14,6 +14,8 @@ public class Login extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
 
 			Scene scene = new Scene(root);
+			
+			primaryStage.setTitle("SPEAR Inventory System");
 
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 
